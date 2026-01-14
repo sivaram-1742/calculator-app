@@ -1,0 +1,263 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color Scheme */
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-calculator: #0f3460;
+    --text-primary: #eee;
+    --text-secondary: #94a3b8;
+    --accent-primary: #e94560;
+    --accent-hover: #d63651;
+    --btn-number: #1e293b;
+    --btn-number-hover: #334155;
+    --btn-operator: #533483;
+    --btn-operator-hover: #6b46a8;
+    --btn-function: #475569;
+    --btn-function-hover: #64748b;
+    --shadow: rgba(0, 0, 0, 0.3);
+    --error-bg: rgba(233, 69, 96, 0.1);
+    --error-border: var(--accent-primary);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Calculator Container */
+.calculator {
+    background: var(--bg-calculator);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 20px 60px var(--shadow);
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Display */
+.display-container {
+    background: var(--bg-secondary);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.previous-operand {
+    color: var(--text-secondary);
+    font-size: 1.25rem;
+    min-height: 1.5rem;
+    text-align: right;
+}
+
+.current-operand {
+    color: var(--text-primary);
+    font-size: 2.5rem;
+    font-weight: 600;
+    min-height: 3rem;
+    text-align: right;
+}
+
+/* Button Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+}
+
+/* Button Base Styles */
+.btn {
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.25rem;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus-visible {
+    outline: 3px solid var(--accent-primary);
+    outline-offset: 2px;
+}
+
+/* Button Variants */
+.btn-number {
+    background: var(--btn-number);
+    color: var(--text-primary);
+}
+
+.btn-number:hover {
+    background: var(--btn-number-hover);
+}
+
+.btn-operator {
+    background: var(--btn-operator);
+    color: var(--text-primary);
+}
+
+.btn-operator:hover {
+    background: var(--btn-operator-hover);
+}
+
+.btn-function {
+    background: var(--btn-function);
+    color: var(--text-primary);
+}
+
+.btn-function:hover {
+    background: var(--btn-function-hover);
+}
+
+.btn-equals {
+    background: var(--accent-primary);
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.btn-equals:hover {
+    background: var(--accent-hover);
+}
+
+/* Span Utilities */
+.span-2 {
+    grid-column: span 2;
+}
+
+/* Error Message */
+.error-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--error-bg);
+    border: 2px solid var(--error-border);
+    color: var(--text-primary);
+    font-size: 0.875rem;
+    text-align: center;
+    display: none;
+    animation: shake 0.3s ease;
+}
+
+.error-message.show {
+    display: block;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .calculator {
+        padding: 1rem;
+    }
+
+    .display-container {
+        padding: 1rem;
+        min-height: 80px;
+    }
+
+    .current-operand {
+        font-size: 2rem;
+    }
+
+    .previous-operand {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+
+    .buttons {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .current-operand {
+        font-size: 1.75rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.875rem;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .btn {
+        border: 2px solid var(--text-primary);
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
