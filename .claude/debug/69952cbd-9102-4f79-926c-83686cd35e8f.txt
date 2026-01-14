@@ -1,0 +1,215 @@
+2026-01-14T12:04:21.698Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/workspace/git-calc-app-2-29cdb00/repo/.claude.json'
+2026-01-14T12:04:21.698Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261698
+2026-01-14T12:04:21.698Z [DEBUG] Setting permissions for new file: 600
+2026-01-14T12:04:21.711Z [DEBUG] Temp file written successfully, size: 82 bytes
+2026-01-14T12:04:21.712Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261698 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:21.712Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:21.729Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261729
+2026-01-14T12:04:21.729Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:21.732Z [DEBUG] Temp file written successfully, size: 130 bytes
+2026-01-14T12:04:21.732Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:21.732Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261729 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:21.732Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:21.732Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-14T12:04:21.732Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-14T12:04:21.732Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-14T12:04:21.732Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-14T12:04:21.744Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261744
+2026-01-14T12:04:21.744Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:21.746Z [DEBUG] Temp file written successfully, size: 167 bytes
+2026-01-14T12:04:21.746Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:21.746Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261744 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:21.746Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:21.748Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261748
+2026-01-14T12:04:21.748Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:21.749Z [DEBUG] Temp file written successfully, size: 202 bytes
+2026-01-14T12:04:21.749Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:21.749Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261748 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:21.749Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:21.751Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261751
+2026-01-14T12:04:21.751Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:21.753Z [DEBUG] Temp file written successfully, size: 239 bytes
+2026-01-14T12:04:21.753Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:21.753Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261751 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:21.753Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:21.757Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-14T12:04:21.757Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-14T12:04:21.757Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-14T12:04:21.759Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-14T12:04:21.760Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-14T12:04:21.760Z [DEBUG] Total LSP servers loaded: 0
+2026-01-14T12:04:21.760Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-14T12:04:21.760Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-14T12:04:21.760Z [DEBUG] LSP server manager initialized successfully
+2026-01-14T12:04:21.760Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-14T12:04:21.760Z [DEBUG] [STARTUP] MCP configs loaded in 1ms
+2026-01-14T12:04:21.762Z [DEBUG] [STARTUP] Running setup()...
+2026-01-14T12:04:21.780Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/workspace/git-calc-app-2-29cdb00/repo/.claude/skills, project=[]
+2026-01-14T12:04:21.795Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-01-14T12:04:21.805Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude/todos/69952cbd-9102-4f79-926c-83686cd35e8f-agent-69952cbd-9102-4f79-926c-83686cd35e8f.json.tmp.210.1768392261805
+2026-01-14T12:04:21.809Z [DEBUG] Temp file written successfully, size: 2 bytes
+2026-01-14T12:04:21.809Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude/todos/69952cbd-9102-4f79-926c-83686cd35e8f-agent-69952cbd-9102-4f79-926c-83686cd35e8f.json.tmp.210.1768392261805 to /workspace/git-calc-app-2-29cdb00/repo/.claude/todos/69952cbd-9102-4f79-926c-83686cd35e8f-agent-69952cbd-9102-4f79-926c-83686cd35e8f.json
+2026-01-14T12:04:21.809Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude/todos/69952cbd-9102-4f79-926c-83686cd35e8f-agent-69952cbd-9102-4f79-926c-83686cd35e8f.json written atomically
+2026-01-14T12:04:21.812Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-14T12:04:21.812Z [DEBUG] Total plugin skills loaded: 0
+2026-01-14T12:04:21.812Z [DEBUG] Total plugin commands loaded: 0
+2026-01-14T12:04:21.812Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-14T12:04:21.817Z [DEBUG] [STARTUP] setup() completed in 55ms
+2026-01-14T12:04:21.817Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-14T12:04:21.821Z [DEBUG] Total plugin agents loaded: 0
+2026-01-14T12:04:21.821Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, legacy commands: 0)
+2026-01-14T12:04:21.823Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills
+2026-01-14T12:04:21.825Z [DEBUG] [STARTUP] Commands and agents loaded in 8ms
+2026-01-14T12:04:21.825Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-14T12:04:21.825Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-14T12:04:21.830Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-14T12:04:21.841Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-14T12:04:21.852Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-14T12:04:21.852Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:21.852Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-14T12:04:21.903Z [DEBUG] Git remote URL: https://x-access-token:ghs_ZW0LjtYXCBgj7tH24PgcJLWnbaiHST0MKSig@github.com/sivaram-1742/calculator-app
+2026-01-14T12:04:21.903Z [DEBUG] Parsed repository: sivaram-1742/calculator-app from https://x-access-token:ghs_ZW0LjtYXCBgj7tH24PgcJLWnbaiHST0MKSig@github.com/sivaram-1742/calculator-app
+2026-01-14T12:04:21.903Z [DEBUG] Parsed repository: sivaram-1742/calculator-app from URL: https://x-access-token:ghs_ZW0LjtYXCBgj7tH24PgcJLWnbaiHST0MKSig@github.com/sivaram-1742/calculator-app
+2026-01-14T12:04:21.904Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261904
+2026-01-14T12:04:21.904Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:21.906Z [DEBUG] Temp file written successfully, size: 357 bytes
+2026-01-14T12:04:21.906Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:21.906Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392261904 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:21.906Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:21.906Z [DEBUG] Added /workspace/git-calc-app-2-29cdb00/repo to tracked paths for repo sivaram-1742/calculator-app
+2026-01-14T12:04:21.946Z [DEBUG] Creating shell snapshot for bash (/bin/bash)
+2026-01-14T12:04:21.946Z [DEBUG] Looking for shell config file: /workspace/git-calc-app-2-29cdb00/repo/.bashrc
+2026-01-14T12:04:21.946Z [DEBUG] Shell config file not found: /workspace/git-calc-app-2-29cdb00/repo/.bashrc, creating snapshot with Claude Code defaults only
+2026-01-14T12:04:21.946Z [DEBUG] Snapshots directory: /workspace/git-calc-app-2-29cdb00/repo/.claude/shell-snapshots
+2026-01-14T12:04:21.947Z [DEBUG] Creating snapshot at: /workspace/git-calc-app-2-29cdb00/repo/.claude/shell-snapshots/snapshot-bash-1768392261946-ibtnlk.sh
+2026-01-14T12:04:21.947Z [DEBUG] Shell binary exists: true
+2026-01-14T12:04:21.947Z [DEBUG] Execution timeout: 10000ms
+2026-01-14T12:04:21.966Z [DEBUG] Total plugin output styles loaded: 0
+2026-01-14T12:04:21.971Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2026-01-14T12:04:21.971Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:21.971Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2026-01-14T12:04:21.972Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2026-01-14T12:04:21.972Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:21.972Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2026-01-14T12:04:21.972Z [DEBUG] Getting matching hook commands for SubagentStart with query: Bash
+2026-01-14T12:04:21.972Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:21.972Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-14T12:04:21.979Z [DEBUG] Skills and commands included in Skill tool:
+2026-01-14T12:04:21.987Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-14T12:04:21.987Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-14T12:04:21.987Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-14T12:04:21.994Z [DEBUG] Shell snapshot created successfully (371 bytes)
+2026-01-14T12:04:22.025Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-14T12:04:22.025Z [DEBUG] Tool search disabled: MCPSearchTool is not available (may have been disallowed via disallowedTools).
+2026-01-14T12:04:22.025Z [DEBUG] Tool search disabled: MCPSearchTool is not available (may have been disallowed via disallowedTools).
+2026-01-14T12:04:22.030Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-14T12:04:22.030Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-14T12:04:22.030Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-14T12:04:22.030Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-14T12:04:22.030Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-14T12:04:22.031Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-14T12:04:22.031Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-14T12:04:22.032Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-14T12:04:22.032Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-14T12:04:22.040Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262040
+2026-01-14T12:04:22.040Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.042Z [DEBUG] Temp file written successfully, size: 529 bytes
+2026-01-14T12:04:22.042Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.042Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262040 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.042Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.044Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262044
+2026-01-14T12:04:22.044Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.045Z [DEBUG] Temp file written successfully, size: 596 bytes
+2026-01-14T12:04:22.045Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.045Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262044 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.045Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.046Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262046
+2026-01-14T12:04:22.046Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.049Z [DEBUG] Temp file written successfully, size: 642 bytes
+2026-01-14T12:04:22.049Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.049Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262046 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.049Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.059Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-14T12:04:22.059Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-14T12:04:22.060Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-14T12:04:22.060Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-14T12:04:22.063Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2026-01-14T12:04:22.063Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:22.063Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-14T12:04:22.065Z [DEBUG] Tool search disabled: MCPSearchTool is not available (may have been disallowed via disallowedTools).
+2026-01-14T12:04:22.069Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-14T12:04:22.069Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-14T12:04:22.069Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-14T12:04:22.073Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-14T12:04:22.074Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-14T12:04:22.074Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-14T12:04:22.074Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-14T12:04:22.208Z [ERROR] "AxiosError: Error\n    at eR (/$bunfs/root/claude:58:1144)\n    at <anonymous> (/$bunfs/root/claude:59:10098)\n    at emit (node:events:92:22)\n    at endReadableNT (internal:streams/readable:862:50)\n    at processTicksAndRejections (native:7:39)\n    at request (/$bunfs/root/claude:61:2149)\n    at processTicksAndRejections (native:7:39)"
+2026-01-14T12:04:22.234Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262234
+2026-01-14T12:04:22.234Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.247Z [DEBUG] Temp file written successfully, size: 714 bytes
+2026-01-14T12:04:22.247Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.247Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262234 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.247Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.248Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262248
+2026-01-14T12:04:22.248Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.249Z [DEBUG] Temp file written successfully, size: 766 bytes
+2026-01-14T12:04:22.249Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.249Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262248 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.249Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.250Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262250
+2026-01-14T12:04:22.250Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.252Z [DEBUG] Temp file written successfully, size: 804 bytes
+2026-01-14T12:04:22.252Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.252Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262250 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.252Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.253Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262253
+2026-01-14T12:04:22.253Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.255Z [DEBUG] Temp file written successfully, size: 840 bytes
+2026-01-14T12:04:22.255Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.255Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262253 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.255Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.256Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262256
+2026-01-14T12:04:22.256Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.258Z [DEBUG] Temp file written successfully, size: 870 bytes
+2026-01-14T12:04:22.258Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.258Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262256 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.258Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.259Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262259
+2026-01-14T12:04:22.259Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.261Z [DEBUG] Temp file written successfully, size: 927 bytes
+2026-01-14T12:04:22.261Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.261Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262259 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.261Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.262Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262262
+2026-01-14T12:04:22.262Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.263Z [DEBUG] Temp file written successfully, size: 957 bytes
+2026-01-14T12:04:22.263Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.263Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262262 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.263Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.264Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262264
+2026-01-14T12:04:22.264Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.265Z [DEBUG] Temp file written successfully, size: 1007 bytes
+2026-01-14T12:04:22.265Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.265Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262264 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.266Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.266Z [DEBUG] Writing to temp file: /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262266
+2026-01-14T12:04:22.266Z [DEBUG] Preserving file permissions: 100600
+2026-01-14T12:04:22.268Z [DEBUG] Temp file written successfully, size: 1053 bytes
+2026-01-14T12:04:22.268Z [DEBUG] Applied original permissions to temp file
+2026-01-14T12:04:22.268Z [DEBUG] Renaming /workspace/git-calc-app-2-29cdb00/repo/.claude.json.tmp.210.1768392262266 to /workspace/git-calc-app-2-29cdb00/repo/.claude.json
+2026-01-14T12:04:22.268Z [DEBUG] File /workspace/git-calc-app-2-29cdb00/repo/.claude.json written atomically
+2026-01-14T12:04:22.908Z [DEBUG] Stream started - received first chunk
+2026-01-14T12:04:23.211Z [DEBUG] Stream started - received first chunk
+2026-01-14T12:04:23.826Z [DEBUG] Stream started - received first chunk
+2026-01-14T12:04:23.856Z [DEBUG] Stream started - received first chunk
+2026-01-14T12:04:24.047Z [DEBUG] Stream started - received first chunk
+2026-01-14T12:04:24.384Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2026-01-14T12:04:24.384Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:24.384Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-14T12:04:25.509Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2026-01-14T12:04:25.509Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:25.509Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-14T12:04:26.956Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2026-01-14T12:04:26.956Z [DEBUG] Found 0 hook matchers in settings
+2026-01-14T12:04:26.956Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
