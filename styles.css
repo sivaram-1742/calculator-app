@@ -1,0 +1,268 @@
+/* ===== CSS RESET & BASE STYLES ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color Palette */
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-calculator: #0f3460;
+    --display-bg: #0a2540;
+    --text-primary: #ffffff;
+    --text-secondary: #e0e0e0;
+
+    /* Button Colors */
+    --btn-number: #1e3a5f;
+    --btn-number-hover: #2a4a7c;
+    --btn-operator: #e94560;
+    --btn-operator-hover: #ff5370;
+    --btn-function: #533483;
+    --btn-function-hover: #6b4296;
+    --btn-equals: #16a085;
+    --btn-equals-hover: #1abc9c;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+    /* Transitions */
+    --transition: all 0.2s ease;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--text-primary);
+}
+
+/* ===== CALCULATOR CONTAINER ===== */
+.calculator-container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 100%;
+    background: var(--bg-calculator);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(10px);
+}
+
+/* ===== DISPLAY ===== */
+.display {
+    background: var(--display-bg);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.display-previous {
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    min-height: 1.5rem;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+
+.display-current {
+    color: var(--text-primary);
+    font-size: 2.5rem;
+    font-weight: 600;
+    min-height: 2.5rem;
+    text-align: right;
+    width: 100%;
+}
+
+/* ===== BUTTONS GRID ===== */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/* ===== BUTTON BASE STYLES ===== */
+.btn {
+    background: var(--btn-number);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 24px;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn:focus-visible {
+    outline: 3px solid var(--btn-equals);
+    outline-offset: 2px;
+}
+
+/* ===== BUTTON VARIANTS ===== */
+.btn-number {
+    background: var(--btn-number);
+}
+
+.btn-number:hover {
+    background: var(--btn-number-hover);
+}
+
+.btn-operator {
+    background: var(--btn-operator);
+}
+
+.btn-operator:hover {
+    background: var(--btn-operator-hover);
+}
+
+.btn-function {
+    background: var(--btn-function);
+}
+
+.btn-function:hover {
+    background: var(--btn-function-hover);
+}
+
+.btn-equals {
+    background: var(--btn-equals);
+    grid-row: span 2;
+    font-size: 2rem;
+}
+
+.btn-equals:hover {
+    background: var(--btn-equals-hover);
+}
+
+.btn-zero {
+    grid-column: span 2;
+}
+
+/* Active state for operators */
+.btn-operator.active {
+    background: var(--btn-operator-hover);
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== ERROR STATE ===== */
+.display.error .display-current {
+    color: var(--btn-operator);
+    font-size: 1.8rem;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 480px) {
+    .calculator {
+        padding: 16px;
+    }
+
+    .display {
+        padding: 16px;
+        min-height: 80px;
+    }
+
+    .display-previous {
+        font-size: 1rem;
+    }
+
+    .display-current {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+
+    .btn-equals {
+        font-size: 1.8rem;
+    }
+
+    .buttons {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .calculator {
+        padding: 12px;
+    }
+
+    .display-current {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        padding: 16px;
+        font-size: 1.2rem;
+    }
+
+    .btn-equals {
+        font-size: 1.6rem;
+    }
+}
+
+/* ===== ACCESSIBILITY ===== */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .btn {
+        border: 2px solid var(--text-primary);
+    }
+
+    .display {
+        border: 2px solid var(--text-primary);
+    }
+}
+
+/* ===== KEYBOARD SUPPORT INDICATOR ===== */
+.keyboard-user .btn:focus {
+    outline: 3px solid var(--btn-equals);
+    outline-offset: 2px;
+}

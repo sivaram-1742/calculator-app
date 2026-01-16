@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, responsive calculator web application with basic arithmetic operations">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="calculator-container">
+        <div class="calculator" role="application" aria-label="Calculator">
+            <!-- Display Screen -->
+            <div class="display">
+                <div class="display-previous" aria-live="polite" aria-atomic="true"></div>
+                <div class="display-current" aria-live="polite" aria-atomic="true">0</div>
+            </div>
+
+            <!-- Calculator Buttons -->
+            <div class="buttons">
+                <!-- First Row: Clear and Operations -->
+                <button class="btn btn-function" data-action="clear" aria-label="Clear">AC</button>
+                <button class="btn btn-function" data-action="delete" aria-label="Delete">DEL</button>
+                <button class="btn btn-operator" data-operator="/" aria-label="Divide">÷</button>
+                <button class="btn btn-operator" data-operator="*" aria-label="Multiply">×</button>
+
+                <!-- Second Row: Numbers 7-9 and Minus -->
+                <button class="btn btn-number" data-number="7" aria-label="Seven">7</button>
+                <button class="btn btn-number" data-number="8" aria-label="Eight">8</button>
+                <button class="btn btn-number" data-number="9" aria-label="Nine">9</button>
+                <button class="btn btn-operator" data-operator="-" aria-label="Subtract">−</button>
+
+                <!-- Third Row: Numbers 4-6 and Plus -->
+                <button class="btn btn-number" data-number="4" aria-label="Four">4</button>
+                <button class="btn btn-number" data-number="5" aria-label="Five">5</button>
+                <button class="btn btn-number" data-number="6" aria-label="Six">6</button>
+                <button class="btn btn-operator" data-operator="+" aria-label="Add">+</button>
+
+                <!-- Fourth Row: Numbers 1-3 and Equals -->
+                <button class="btn btn-number" data-number="1" aria-label="One">1</button>
+                <button class="btn btn-number" data-number="2" aria-label="Two">2</button>
+                <button class="btn btn-number" data-number="3" aria-label="Three">3</button>
+                <button class="btn btn-equals" data-action="equals" aria-label="Equals" rowspan="2">=</button>
+
+                <!-- Fifth Row: Zero and Decimal -->
+                <button class="btn btn-number btn-zero" data-number="0" aria-label="Zero">0</button>
+                <button class="btn btn-number" data-number="." aria-label="Decimal point">.</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
