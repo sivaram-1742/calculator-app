@@ -1,0 +1,311 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.6
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/git-calc-app-2-29cdb00/repo/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm install jsdom
+7 verbose argv "install" "--global" "jsdom"
+8 verbose logfile logs-max:10 dir:/workspace/git-calc-app-2-29cdb00/repo/.npm/_logs/2026-01-16T06_40_17_461Z-
+9 verbose logfile /workspace/git-calc-app-2-29cdb00/repo/.npm/_logs/2026-01-16T06_40_17_461Z-debug-0.log
+10 silly packumentCache heap:1961623552 maxSize:490405888 maxEntrySize:245202944
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest jsdom@*
+14 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/jsdom 19ms (cache hit)
+16 silly packumentCache full:https://registry.npmjs.org/jsdom set size:1033479 disposed:false
+17 silly placeDep ROOT jsdom@27.4.0 OK for:  want: *
+18 silly fetch manifest @acemir/cssom@^0.9.28
+19 silly packumentCache full:https://registry.npmjs.org/@acemir%2fcssom cache-miss
+20 silly fetch manifest @asamuzakjp/dom-selector@^6.7.6
+21 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fdom-selector cache-miss
+22 silly fetch manifest @exodus/bytes@^1.6.0
+23 silly packumentCache full:https://registry.npmjs.org/@exodus%2fbytes cache-miss
+24 silly fetch manifest cssstyle@^5.3.4
+25 silly packumentCache full:https://registry.npmjs.org/cssstyle cache-miss
+26 silly fetch manifest data-urls@^6.0.0
+27 silly packumentCache full:https://registry.npmjs.org/data-urls cache-miss
+28 silly fetch manifest decimal.js@^10.6.0
+29 silly packumentCache full:https://registry.npmjs.org/decimal.js cache-miss
+30 silly fetch manifest html-encoding-sniffer@^6.0.0
+31 silly packumentCache full:https://registry.npmjs.org/html-encoding-sniffer cache-miss
+32 silly fetch manifest http-proxy-agent@^7.0.2
+33 silly packumentCache full:https://registry.npmjs.org/http-proxy-agent cache-miss
+34 silly fetch manifest https-proxy-agent@^7.0.6
+35 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent cache-miss
+36 silly fetch manifest is-potential-custom-element-name@^1.0.1
+37 silly packumentCache full:https://registry.npmjs.org/is-potential-custom-element-name cache-miss
+38 silly fetch manifest parse5@^8.0.0
+39 silly packumentCache full:https://registry.npmjs.org/parse5 cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@exodus%2fbytes 23ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/@exodus%2fbytes set size:137630 disposed:false
+42 silly fetch manifest saxes@^6.0.0
+43 silly packumentCache full:https://registry.npmjs.org/saxes cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/is-potential-custom-element-name 22ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/is-potential-custom-element-name set size:6810 disposed:false
+46 silly fetch manifest symbol-tree@^3.2.4
+47 silly packumentCache full:https://registry.npmjs.org/symbol-tree cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/html-encoding-sniffer 25ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/html-encoding-sniffer set size:23370 disposed:false
+50 silly fetch manifest tough-cookie@^6.0.0
+51 silly packumentCache full:https://registry.npmjs.org/tough-cookie cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/cssstyle 29ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/cssstyle set size:154071 disposed:false
+54 silly fetch manifest w3c-xmlserializer@^5.0.0
+55 silly packumentCache full:https://registry.npmjs.org/w3c-xmlserializer cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp%2fdom-selector 34ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fdom-selector set size:573378 disposed:false
+58 silly fetch manifest webidl-conversions@^8.0.0
+59 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/decimal.js 36ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/decimal.js set size:107790 disposed:false
+62 silly fetch manifest whatwg-mimetype@^4.0.0
+63 silly packumentCache full:https://registry.npmjs.org/whatwg-mimetype cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/@acemir%2fcssom 45ms (cache hit)
+65 silly packumentCache full:https://registry.npmjs.org/@acemir%2fcssom set size:54817 disposed:false
+66 silly fetch manifest whatwg-url@^15.1.0
+67 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 42ms (cache hit)
+69 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent set size:76241 disposed:false
+70 silly fetch manifest ws@^8.18.3
+71 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/parse5 43ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/parse5 set size:120809 disposed:false
+74 silly fetch manifest xml-name-validator@^5.0.0
+75 silly packumentCache full:https://registry.npmjs.org/xml-name-validator cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/data-urls 49ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/data-urls set size:32270 disposed:false
+78 http fetch GET 200 https://registry.npmjs.org/http-proxy-agent 48ms (cache hit)
+79 silly packumentCache full:https://registry.npmjs.org/http-proxy-agent set size:50096 disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 25ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:46073 disposed:false
+82 http fetch GET 200 https://registry.npmjs.org/symbol-tree 37ms (cache hit)
+83 silly packumentCache full:https://registry.npmjs.org/symbol-tree set size:60614 disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/saxes 40ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/saxes set size:228593 disposed:false
+86 http fetch GET 200 https://registry.npmjs.org/whatwg-url 23ms (cache hit)
+87 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:165406 disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/w3c-xmlserializer 37ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/w3c-xmlserializer set size:36375 disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype 29ms (cache hit)
+91 silly packumentCache full:https://registry.npmjs.org/whatwg-mimetype set size:23788 disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/tough-cookie 43ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/tough-cookie set size:145095 disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/xml-name-validator 25ms (cache hit)
+95 silly packumentCache full:https://registry.npmjs.org/xml-name-validator set size:11085 disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/ws 28ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/ws set size:413307 disposed:false
+98 silly fetch manifest @exodus/crypto@^1.0.0-rc.4
+99 silly packumentCache full:https://registry.npmjs.org/@exodus%2fcrypto cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/@exodus%2fcrypto 4ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/@exodus%2fcrypto set size:239657 disposed:false
+102 silly fetch manifest bufferutil@^4.0.1
+103 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/bufferutil 8ms (cache hit)
+105 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:52763 disposed:false
+106 silly fetch manifest utf-8-validate@>=5.0.2
+107 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 7ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:77148 disposed:false
+110 silly placeDep node_modules/jsdom @acemir/cssom@0.9.31 OK for: jsdom@27.4.0 want: ^0.9.28
+111 silly placeDep node_modules/jsdom @asamuzakjp/dom-selector@6.7.6 OK for: jsdom@27.4.0 want: ^6.7.6
+112 silly placeDep node_modules/jsdom @exodus/bytes@1.8.0 OK for: jsdom@27.4.0 want: ^1.6.0
+113 silly placeDep node_modules/jsdom cssstyle@5.3.7 OK for: jsdom@27.4.0 want: ^5.3.4
+114 silly placeDep node_modules/jsdom data-urls@6.0.0 OK for: jsdom@27.4.0 want: ^6.0.0
+115 silly placeDep node_modules/jsdom decimal.js@10.6.0 OK for: jsdom@27.4.0 want: ^10.6.0
+116 silly placeDep node_modules/jsdom html-encoding-sniffer@6.0.0 OK for: jsdom@27.4.0 want: ^6.0.0
+117 silly placeDep node_modules/jsdom http-proxy-agent@7.0.2 OK for: jsdom@27.4.0 want: ^7.0.2
+118 silly placeDep node_modules/jsdom https-proxy-agent@7.0.6 OK for: jsdom@27.4.0 want: ^7.0.6
+119 silly placeDep node_modules/jsdom is-potential-custom-element-name@1.0.1 OK for: jsdom@27.4.0 want: ^1.0.1
+120 silly placeDep node_modules/jsdom parse5@8.0.0 OK for: jsdom@27.4.0 want: ^8.0.0
+121 silly placeDep node_modules/jsdom saxes@6.0.0 OK for: jsdom@27.4.0 want: ^6.0.0
+122 silly placeDep node_modules/jsdom symbol-tree@3.2.4 OK for: jsdom@27.4.0 want: ^3.2.4
+123 silly placeDep node_modules/jsdom tough-cookie@6.0.0 OK for: jsdom@27.4.0 want: ^6.0.0
+124 silly placeDep node_modules/jsdom w3c-xmlserializer@5.0.0 OK for: jsdom@27.4.0 want: ^5.0.0
+125 silly placeDep node_modules/jsdom webidl-conversions@8.0.1 OK for: jsdom@27.4.0 want: ^8.0.0
+126 silly placeDep node_modules/jsdom whatwg-mimetype@4.0.0 OK for: jsdom@27.4.0 want: ^4.0.0
+127 silly placeDep node_modules/jsdom whatwg-url@15.1.0 OK for: jsdom@27.4.0 want: ^15.1.0
+128 silly placeDep node_modules/jsdom ws@8.19.0 OK for: jsdom@27.4.0 want: ^8.18.3
+129 silly placeDep node_modules/jsdom xml-name-validator@5.0.0 OK for: jsdom@27.4.0 want: ^5.0.0
+130 silly fetch manifest @asamuzakjp/nwsapi@^2.3.9
+131 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fnwsapi cache-miss
+132 silly fetch manifest bidi-js@^1.0.3
+133 silly packumentCache full:https://registry.npmjs.org/bidi-js cache-miss
+134 silly fetch manifest css-tree@^3.1.0
+135 silly packumentCache full:https://registry.npmjs.org/css-tree cache-miss
+136 silly fetch manifest lru-cache@^11.2.4
+137 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+138 silly fetch manifest @asamuzakjp/css-color@^4.1.1
+139 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fcss-color cache-miss
+140 silly fetch manifest @csstools/css-syntax-patches-for-csstree@^1.0.21
+141 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-syntax-patches-for-csstree cache-miss
+142 silly fetch manifest css-tree@^3.1.0
+143 silly packumentCache full:https://registry.npmjs.org/css-tree cache-miss
+144 silly fetch manifest lru-cache@^11.2.4
+145 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+146 silly fetch manifest whatwg-url@^15.0.0
+147 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-hit
+148 silly fetch manifest agent-base@^7.1.0
+149 silly packumentCache full:https://registry.npmjs.org/agent-base cache-miss
+150 silly fetch manifest debug@^4.3.4
+151 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+152 silly fetch manifest debug@4
+153 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp%2fnwsapi 22ms (cache hit)
+155 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fnwsapi set size:61198 disposed:false
+156 silly fetch manifest agent-base@^7.1.2
+157 silly packumentCache full:https://registry.npmjs.org/agent-base cache-miss
+158 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-syntax-patches-for-csstree 21ms (cache hit)
+159 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-syntax-patches-for-csstree set size:56915 disposed:false
+160 silly fetch manifest entities@^6.0.0
+161 silly packumentCache full:https://registry.npmjs.org/entities cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp%2fcss-color 23ms (cache hit)
+163 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fcss-color set size:163648 disposed:false
+164 silly fetch manifest xmlchars@^2.2.0
+165 silly packumentCache full:https://registry.npmjs.org/xmlchars cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/bidi-js 28ms (cache hit)
+167 silly packumentCache full:https://registry.npmjs.org/bidi-js set size:17389 disposed:false
+168 silly fetch manifest tldts@^7.0.5
+169 silly packumentCache full:https://registry.npmjs.org/tldts cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/agent-base 25ms (cache hit)
+171 silly packumentCache full:https://registry.npmjs.org/agent-base set size:67460 disposed:false
+172 silly fetch manifest tr46@^6.0.0
+173 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/css-tree 34ms (cache hit)
+175 silly packumentCache full:https://registry.npmjs.org/css-tree set size:221018 disposed:false
+176 http fetch GET 200 https://registry.npmjs.org/lru-cache 35ms (cache hit)
+177 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:406394 disposed:false
+178 http fetch GET 200 https://registry.npmjs.org/debug 37ms (cache hit)
+179 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/css-tree 43ms (cache hit)
+181 silly packumentCache full:https://registry.npmjs.org/css-tree set size:221018 disposed:false
+182 silly packumentCache full:https://registry.npmjs.org/css-tree dispose
+183 http fetch GET 200 https://registry.npmjs.org/lru-cache 48ms (cache hit)
+184 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:406394 disposed:false
+185 silly packumentCache full:https://registry.npmjs.org/lru-cache dispose
+186 http fetch GET 200 https://registry.npmjs.org/debug 45ms (cache hit)
+187 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+188 silly packumentCache full:https://registry.npmjs.org/debug dispose
+189 http fetch GET 200 https://registry.npmjs.org/tr46 29ms (cache hit)
+190 silly packumentCache full:https://registry.npmjs.org/tr46 set size:47377 disposed:false
+191 http fetch GET 200 https://registry.npmjs.org/xmlchars 34ms (cache hit)
+192 silly packumentCache full:https://registry.npmjs.org/xmlchars set size:33578 disposed:false
+193 http fetch GET 200 https://registry.npmjs.org/agent-base 41ms (cache hit)
+194 silly packumentCache full:https://registry.npmjs.org/agent-base set size:67460 disposed:false
+195 silly packumentCache full:https://registry.npmjs.org/agent-base dispose
+196 http fetch GET 200 https://registry.npmjs.org/entities 40ms (cache hit)
+197 silly packumentCache full:https://registry.npmjs.org/entities set size:94747 disposed:false
+198 http fetch GET 200 https://registry.npmjs.org/tldts 41ms (cache hit)
+199 silly packumentCache full:https://registry.npmjs.org/tldts set size:3351679 disposed:false
+200 silly placeDep node_modules/jsdom @asamuzakjp/nwsapi@2.3.9 OK for: @asamuzakjp/dom-selector@6.7.6 want: ^2.3.9
+201 silly placeDep node_modules/jsdom bidi-js@1.0.3 OK for: @asamuzakjp/dom-selector@6.7.6 want: ^1.0.3
+202 silly placeDep node_modules/jsdom css-tree@3.1.0 OK for: @asamuzakjp/dom-selector@6.7.6 want: ^3.1.0
+203 silly placeDep node_modules/jsdom lru-cache@11.2.4 OK for: @asamuzakjp/dom-selector@6.7.6 want: ^11.2.4
+204 silly fetch manifest require-from-string@^2.0.2
+205 silly packumentCache full:https://registry.npmjs.org/require-from-string cache-miss
+206 silly fetch manifest mdn-data@2.12.2
+207 silly packumentCache full:https://registry.npmjs.org/mdn-data cache-miss
+208 silly fetch manifest source-map-js@^1.0.1
+209 silly packumentCache full:https://registry.npmjs.org/source-map-js cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/source-map-js 11ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/source-map-js set size:62640 disposed:false
+212 http fetch GET 200 https://registry.npmjs.org/require-from-string 15ms (cache hit)
+213 silly packumentCache full:https://registry.npmjs.org/require-from-string set size:15128 disposed:false
+214 http fetch GET 200 https://registry.npmjs.org/mdn-data 15ms (cache hit)
+215 silly packumentCache full:https://registry.npmjs.org/mdn-data set size:168700 disposed:false
+216 silly placeDep node_modules/jsdom require-from-string@2.0.2 OK for: bidi-js@1.0.3 want: ^2.0.2
+217 silly placeDep node_modules/jsdom mdn-data@2.12.2 OK for: css-tree@3.1.0 want: 2.12.2
+218 silly placeDep node_modules/jsdom source-map-js@1.2.1 OK for: css-tree@3.1.0 want: ^1.0.1
+219 silly placeDep node_modules/jsdom @asamuzakjp/css-color@4.1.1 OK for: cssstyle@5.3.7 want: ^4.1.1
+220 silly placeDep node_modules/jsdom @csstools/css-syntax-patches-for-csstree@1.0.25 OK for: cssstyle@5.3.7 want: ^1.0.21
+221 silly fetch manifest @csstools/css-calc@^2.1.4
+222 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-calc cache-miss
+223 silly fetch manifest @csstools/css-color-parser@^3.1.0
+224 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-color-parser cache-miss
+225 silly fetch manifest @csstools/css-parser-algorithms@^3.0.5
+226 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-parser-algorithms cache-miss
+227 silly fetch manifest @csstools/css-tokenizer@^3.0.4
+228 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-tokenizer cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-tokenizer 5ms (cache hit)
+230 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-tokenizer set size:61164 disposed:false
+231 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-calc 9ms (cache hit)
+232 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-calc set size:66190 disposed:false
+233 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-parser-algorithms 9ms (cache hit)
+234 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-parser-algorithms set size:66140 disposed:false
+235 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-color-parser 10ms (cache hit)
+236 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-color-parser set size:98938 disposed:false
+237 silly placeDep node_modules/jsdom @csstools/css-calc@2.1.4 OK for: @asamuzakjp/css-color@4.1.1 want: ^2.1.4
+238 silly placeDep node_modules/jsdom @csstools/css-tokenizer@3.0.4 OK for: @csstools/css-calc@2.1.4 want: ^3.0.4
+239 silly placeDep node_modules/jsdom @csstools/css-parser-algorithms@3.0.5 OK for: @csstools/css-calc@2.1.4 want: ^3.0.5
+240 silly placeDep node_modules/jsdom @csstools/css-color-parser@3.1.0 OK for: @asamuzakjp/css-color@4.1.1 want: ^3.1.0
+241 silly fetch manifest @csstools/color-helpers@^5.1.0
+242 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcolor-helpers cache-miss
+243 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcolor-helpers 3ms (cache hit)
+244 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcolor-helpers set size:38932 disposed:false
+245 silly placeDep node_modules/jsdom @csstools/color-helpers@5.1.0 OK for: @csstools/css-color-parser@3.1.0 want: ^5.1.0
+246 silly placeDep node_modules/jsdom agent-base@7.1.4 OK for: http-proxy-agent@7.0.2 want: ^7.1.0
+247 silly placeDep node_modules/jsdom debug@4.4.3 OK for: http-proxy-agent@7.0.2 want: ^4.3.4
+248 silly fetch manifest ms@^2.1.3
+249 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+250 http fetch GET 200 https://registry.npmjs.org/ms 4ms (cache hit)
+251 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+252 silly placeDep node_modules/jsdom ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+253 silly placeDep node_modules/jsdom entities@6.0.1 OK for: parse5@8.0.0 want: ^6.0.0
+254 silly placeDep node_modules/jsdom xmlchars@2.2.0 OK for: saxes@6.0.0 want: ^2.2.0
+255 silly placeDep node_modules/jsdom tldts@7.0.19 OK for: tough-cookie@6.0.0 want: ^7.0.5
+256 silly fetch manifest tldts-core@^7.0.19
+257 silly packumentCache full:https://registry.npmjs.org/tldts-core cache-miss
+258 http fetch GET 200 https://registry.npmjs.org/tldts-core 8ms (cache hit)
+259 silly packumentCache full:https://registry.npmjs.org/tldts-core set size:3008304 disposed:false
+260 silly placeDep node_modules/jsdom tldts-core@7.0.19 OK for: tldts@7.0.19 want: ^7.0.19
+261 silly placeDep node_modules/jsdom tr46@6.0.0 OK for: whatwg-url@15.1.0 want: ^6.0.0
+262 silly fetch manifest punycode@^2.3.1
+263 silly packumentCache full:https://registry.npmjs.org/punycode cache-miss
+264 http fetch GET 200 https://registry.npmjs.org/punycode 5ms (cache hit)
+265 silly packumentCache full:https://registry.npmjs.org/punycode set size:61302 disposed:false
+266 silly placeDep node_modules/jsdom punycode@2.3.1 OK for: tr46@6.0.0 want: ^2.3.1
+267 silly reify moves {}
+268 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/jsdom'
+268 verbose stack     at async mkdir (node:internal/fs/promises:858:10)
+268 verbose stack     at async /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+268 verbose stack     at async Promise.allSettled (index 0)
+268 verbose stack     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+268 verbose stack     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+268 verbose stack     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:150:5)
+268 verbose stack     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+268 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5)
+269 error code EACCES
+270 error syscall mkdir
+271 error path /usr/lib/node_modules/jsdom
+272 error errno -13
+273 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/jsdom'
+273 error     at async mkdir (node:internal/fs/promises:858:10)
+273 error     at async /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+273 error     at async Promise.allSettled (index 0)
+273 error     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+273 error     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+273 error     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:150:5)
+273 error     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+273 error     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+273 error   errno: -13,
+273 error   code: 'EACCES',
+273 error   syscall: 'mkdir',
+273 error   path: '/usr/lib/node_modules/jsdom'
+273 error }
+274 error
+274 error The operation was rejected by your operating system.
+274 error It is likely you do not have the permissions to access this file as the current user
+274 error
+274 error If you believe this might be a permissions issue, please double-check the
+274 error permissions of the file and its containing directories, or try running
+274 error the command again as root/Administrator.
+275 silly unfinished npm timer reify 1768545617674
+276 silly unfinished npm timer reify:createSparse 1768545618057
+277 verbose cwd /workspace/git-calc-app-2-29cdb00/repo
+278 verbose os Linux 6.12.54-linuxkit
+279 verbose node v20.19.6
+280 verbose npm  v10.8.2
+281 verbose exit -13
+282 verbose code -13
+283 error A complete log of this run can be found in: /workspace/git-calc-app-2-29cdb00/repo/.npm/_logs/2026-01-16T06_40_17_461Z-debug-0.log
