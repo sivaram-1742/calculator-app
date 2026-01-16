@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play a classic game of Tic-Tac-Toe against a friend">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Tic-Tac-Toe</h1>
+
+        <div class="game-info" role="status" aria-live="polite">
+            <p id="status" class="status-text">Current Player: <span id="current-player" class="player-x">X</span></p>
+        </div>
+
+        <div class="game-board" role="grid" aria-label="Tic-Tac-Toe game board">
+            <button class="cell" data-cell-index="0" aria-label="Cell 1, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="1" aria-label="Cell 2, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="2" aria-label="Cell 3, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="3" aria-label="Cell 4, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="4" aria-label="Cell 5, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="5" aria-label="Cell 6, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="6" aria-label="Cell 7, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="7" aria-label="Cell 8, empty" role="gridcell"></button>
+            <button class="cell" data-cell-index="8" aria-label="Cell 9, empty" role="gridcell"></button>
+        </div>
+
+        <div class="controls">
+            <button id="reset-btn" class="btn-reset" aria-label="Start new game">
+                New Game
+            </button>
+        </div>
+
+        <div class="score-board" aria-label="Game score">
+            <div class="score-item">
+                <span class="score-label player-x">X Wins:</span>
+                <span id="x-score" class="score-value">0</span>
+            </div>
+            <div class="score-item">
+                <span class="score-label">Ties:</span>
+                <span id="tie-score" class="score-value">0</span>
+            </div>
+            <div class="score-item">
+                <span class="score-label player-o">O Wins:</span>
+                <span id="o-score" class="score-value">0</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
